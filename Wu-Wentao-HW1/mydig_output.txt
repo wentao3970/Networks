@@ -1,0 +1,53 @@
+1. Type A
+QUESTION SECTION:
+www.google.com. IN A
+
+ANSWER SECTION:
+www.google.com. 300 IN A 172.217.6.196
+
+Query Time: 163 msec
+When: Tue Sep 24 12:33:55 2019
+
+MSG SIZE  rcvd: 38
+
+
+2. Type NS
+QUESTION SECTION:
+www.google.com. IN NS
+
+ANSWER SECTION:
+google.com. 60 IN SOA ns1.google.com. dns-admin.google.com. 270636572 900 900 1800 60
+
+Query Time: 163 msec
+When: Tue Sep 24 12:37:33 2019
+
+MSG SIZE  rcvd: 85
+
+
+3. Type MX
+QUESTION SECTION:
+gmail.com. IN MX
+
+ANSWER SECTION:
+gmail.com. 3600 IN MX 5 gmail-smtp-in.l.google.com.
+gmail.com. 3600 IN MX 30 alt3.gmail-smtp-in.l.google.com.
+gmail.com. 3600 IN MX 40 alt4.gmail-smtp-in.l.google.com.
+gmail.com. 3600 IN MX 10 alt1.gmail-smtp-in.l.google.com.
+gmail.com. 3600 IN MX 20 alt2.gmail-smtp-in.l.google.com.
+
+Query Time: 167 msec
+When: Tue Sep 24 12:38:23 2019
+
+MSG SIZE  rcvd: 283
+
+4. Special case
+QUESTION SECTION:
+google.co.jp. IN A
+
+ANSWER SECTION:
+ns2.google.com. 345600 IN A 216.239.34.10
+
+Query Time: 337 msec
+When: Tue Sep 24 17:26:50 2019
+
+MSG SIZE  rcvd: 41
